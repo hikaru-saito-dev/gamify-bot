@@ -25,6 +25,7 @@ async function connectDB() {
   if (!cached!.promise) {
     const opts = {
       bufferCommands: false,
+      dbName: process.env.MONGO_DB!,
     };
 
     console.log('Connecting to MongoDB URI:', MONGODB_URI.replace(/\/\/.*@/, '//***:***@')); // Hide credentials
