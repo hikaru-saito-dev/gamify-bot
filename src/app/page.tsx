@@ -468,7 +468,7 @@ export default function Dashboard() {
             }}
             >
               <a
-                href="https://whop.com/joined/emoney-fa02/success-xAK4jZFtFFMGzB/app/"
+                href="https://whop.com/joined/emoney/online-success-wjUJepItPJnmEp/app/"
                 target="_parent"
                 rel="noopener noreferrer"
                 style={{
